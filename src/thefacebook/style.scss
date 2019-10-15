@@ -1,0 +1,96 @@
+.container {
+  border: 1px solid grey;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  .header {
+    height: 132px;
+    border-bottom: 1px solid rgb(100, 120, 167);
+    background: #405994;
+    display: flex;
+    justify-content: space-between;
+    .left-img {
+      height: 132px;
+    }
+    .navigation {
+      padding-left: 5px;
+    }
+    .site-title {
+      display: flex;
+      flex-direction: column;
+      color: rgb(92, 138, 214);
+      font-weight: 600;
+      font-size: 56px;
+      margin-right: 48px;
+      margin-top: 16px;
+    }
+    .navigation {
+      .nav-item {
+        color: white;
+        margin-right: 8px;
+        margin-top: 8px;
+        display: inline-block;
+      }
+    }
+  }
+  .page-content {
+    display: flex;
+    .left {
+      width: 250px;
+      .login-section {
+        display: flex;
+        flex-direction: column;
+        border: 2px dashed rgb(100, 120, 167);
+        padding: 4px;
+        margin: 4px;
+        .input {
+          background-color: rgb(218, 223, 233);
+          border-color: rgb(85, 85, 85);
+          height: 16px;
+        }
+        .label {
+          display: flex;
+          justify-content: flex-end;
+        }
+        .buttons {
+          display: flex;
+          justify-content: space-evenly;
+          .button {
+            background-color: rgb(93, 138, 214);
+            color: white;
+            height: 19px;
+          }
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      border: 1px solid grey;
+      margin: 4px;
+      .banner {
+        background: #405994;
+        color: white;
+        height: 24px;
+        padding-left: 4px;
+      }
+      .welcome-text {
+        display: flex;
+        font-size: 32px;
+        justify-content: center;
+        margin-top: 16px;
+        font-weight: 600;
+      }
+      .info {
+        margin: 48px;
+        .buttons {
+          display: flex;
+          justify-content: center;
+          margin-right: 16px;
+          .button {
+            background-color: rgb(93, 138, 214);
+            color: white;
+            height: 19px;
+          }
+        }
+      }
+    }
+  }
+}

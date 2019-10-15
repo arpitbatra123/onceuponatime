@@ -1,0 +1,7 @@
+node_modules
+
+# Output from parcel
+dist
+
+# cache 
+.cache
