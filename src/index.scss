@@ -1,0 +1,14 @@
+.container {
+  margin: 20%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container {
+    margin: 10% 10% 48% 10%;
+  }
+}
