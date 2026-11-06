@@ -2,10 +2,9 @@
   "name": "onceuponatime",
   "version": "0.0.1",
   "description": "Once upon a time...",
-  "main": "index.js",
   "scripts": {
     "serve": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --dist-dir dist --no-source-maps"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,7 @@
   },
   "homepage": "https://github.com/arpitbatra123/onceuponatime#readme",
   "devDependencies": {
-    "parcel": "^1.12.4",
-    "sass": "^1.23.0"
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
   }
 }

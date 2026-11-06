@@ -5,3 +5,5 @@ dist
 
 # cache 
 .cache
+.parcel-cache
+.vercel
